@@ -1,7 +1,7 @@
 Gem::Specification.new do |s|
   s.name = "has_image"
-  s.version = "0.2.3"
-  s.date = "2008-10-09"
+  s.version = "0.3.0"
+  s.date = "2008-10-22"
   s.add_dependency('mini_magick', '>= 1.2.3')
   s.rubyforge_project = 'has-image'  
   s.summary = "Lets you attach images with thumbnails to active record models."
@@ -14,7 +14,7 @@ Gem::Specification.new do |s|
     "CHANGELOG",
     "FAQ",
     "MIT-LICENSE",
-    "README",
+    "README.textile",
     "init.rb",
     "lib/has_image.rb",
     "lib/has_image/processor.rb",
@@ -27,14 +27,14 @@ Gem::Specification.new do |s|
     "test_rails/fixtures/bad_image.jpg",
     "test_rails/fixtures/image.jpg",
     "test_rails/fixtures/image.png",
-    "test_rails/pic.rb",
     "test_rails/pic_test.rb",
+    "test_rails/complex_pic_test.rb",
     "test_rails/schema.rb",
     "test_rails/test_helper.rb",
     "test/processor_test.rb",
     "test/storage_test.rb",
   ]
-  s.rdoc_options = ["--main", "README", "--inline-source", "--line-numbers"]
-  s.extra_rdoc_files = ["README", "CHANGELOG", "FAQ"]
+  s.rdoc_options = ["--main", "--inline-source", "--line-numbers"]
+  # s.extra_rdoc_files = ["CHANGELOG", "FAQ"]
 
 end
